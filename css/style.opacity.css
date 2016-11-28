@@ -1,0 +1,50 @@
+/**
+ * @package Blogecho
+ * @author Jackie Liu
+ * @version 1.0
+ * @link http://jackieliu.win
+ */
+body { background-size: cover; background-attachment: fixed; background-color:black; }
+body::after { content: ""; display: block; position: fixed; top: 0; left: 0; margin: 0; padding: 0; height: 100%; width: 100%; background: rgba(0,0,0,0.55); z-index: 0; }
+#page { padding: 0 10px; position: relative; z-index: 10; }
+a { color: black; }
+del { color: #CCC; }
+a:hover, a:hover p, #sidebar a:hover, a:visited:hover, a:visited:hover p, #sidebar a:visited:hover { text-shadow: 1px 1px 2px white; }
+h2 a:hover, h2 a:visited:hover, a:hover p, a:visited:hover p { border: none; }
+input , textarea, input:invalid, textarea:invalid { border: 2px black solid; border-color: gray; background: white; background: white; padding: 5px 10px; color: black;
+	-webkit-transition: background linear 0.2s; -moz-transition: backgroundbackground linear 0.2s; transition: background linear 0.2s; }
+input:hover , textarea:hover , input:focus , textarea:focus { background: #FFF; background: rgba(255,255,255,0.0); }
+button , input[type="submit"] { border-color: gray; background: rgba(255,255,255,0.6); color: #121314; }
+button:hover , input[type="submit"]:hover { background: #DDD; background: rgba(255,255,255,0.8); border-color: #ddd; }
+button:active , input[type="submit"]:active { border-color: rgba(255,255,255,0.7); background: rgba(255,255,255,0.7); }
+#logo { background: rgba(255, 255, 255, 0.6); box-shadow:0 0 0 8px rgba(255,255,255,0.4); border-width: 0; }
+#logo:hover { box-shadow:0 0 0 5px rgba(255,255,255,0.3); }
+#site-description {color:white;}
+#nav , #next { border-color: rgba(255,255,255,0.4); }
+#nav li:hover , #next li:hover { border-color: #D4DA16; border-color: rgba(255,255,255,0.4); }
+#nav a , #next a { color: #EFEFEF; }
+#ctn_header { margin: 0px 20px 0px 200px; padding-top: 60px; }
+#title a { color: white; }
+#title a:hover { color: white; text-shadow: 3px 3px 5px white;}
+#title h2 { color: white; }
+#title_r input , #title_r button { margin: 0 0 10px 16px; background-color: rgba(255,255,255,0.8); box-shadow: 0 0 0 6px rgba(255,255,255,0.4); }
+#title_r input:hover , #title_r button:hover { box-shadow: 0 0 0 5px rgba(255,255,255,0.3); background-color: #F9F9F9; }
+#title_r button:active { -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); transform:scale(0.9); box-shadow: 0 0 0 10px rgba(255,255,255,0.3); }
+#title_r #tr_search { color: transparent; }
+#title_r #tr_search:focus { color: #FEFEFE; background: rgba(255,255,255,0.1) no-repeat; border-width: 4px; }
+#ctn a:hover { text-shadow: 1px 1px 2px gray; }
+#footer { background: none; color: rgba(255,255,255,0.6); border-color: rgba(255,255,255,0.4); }
+#footer a { color: rgba(255,255,255,0.8); }
+#footer:hover { color: rgba(255,255,255,0.5); }
+#footer:hover a { color: rgba(255,255,255,0.7); }
+#link a:hover { color: black; text-shadow: 1px 1px 2px gray;}
+@media screen and (max-width: 600px) {
+	body { background-size: auto 100%; }
+	#page { padding: 0; }
+	#ctn_header { padding-top: 10px; margin: 0 auto 0 auto; }
+	#title { margin: 0 0 16px 0; }
+	#sidebar { padding: 0 5px 15px 20px; }
+	#title_r #tr_search , #title_r #tr_search:hover , #title_r #tr_search:focus { margin: 10px 0; background: url(img/enter.png) right no-repeat; background-size: 12px; background-origin: content-box; border-width: 2px; }
+	#ctn { margin: 0; }
+}
+
