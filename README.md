@@ -1,4 +1,3 @@
-![image](http://ogzyt1sa2.bkt.clouddn.com/blogecho.jpg)
 ## Blogecho for Typecho 概述
 - 作者：JackieLiu
 - 版本：v1.0
