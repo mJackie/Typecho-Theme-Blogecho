@@ -1,3 +1,4 @@
+![image](githubimg/blogecho.jpg)
 ## Blogecho for Typecho 概述
 - 作者：JackieLiu
 - 版本：v1.0
@@ -17,12 +18,12 @@
 
 ## 演示
 体验 Blogecho 主题: [Blogecho 演示](https://jackieliu.win)
-> 注意：此演示基于 Hexo，并使用了，与 Tychoe 有些许差异。
+> 注意：此演示基于 Hexo，与 Typechoe 有些许差异。
 
 ## 预览
-![image](http://ogzyt1sa2.bkt.clouddn.com/blogecho2.png)
+![image](githubimg/blogecho2.png)
 
-![image](http://ogzyt1sa2.bkt.clouddn.com/blogechoForTypechoSetup.png)
+![image](githubimg/blogechoForTypechoSetup.png)
 ## 更新日志
 - 2016.11.28  发布 Blogecho for Typecho v1.0
 
